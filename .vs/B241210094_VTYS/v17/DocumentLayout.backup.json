@@ -58,23 +58,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FormParcaYonetimi.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\ynaz2\\Desktop\\B241210094_VTYS\\FormParcaYonetimi.cs",
               "RelativeDocumentMoniker": "FormParcaYonetimi.cs",
-              "ToolTip": "C:\\Users\\ynaz2\\Desktop\\B241210094_VTYS\\FormParcaYonetimi.cs [Tasar\u0131m]*",
-              "RelativeToolTip": "FormParcaYonetimi.cs [Tasar\u0131m]*",
+              "ToolTip": "C:\\Users\\ynaz2\\Desktop\\B241210094_VTYS\\FormParcaYonetimi.cs [Tasar\u0131m]",
+              "RelativeToolTip": "FormParcaYonetimi.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-07T15:16:39.362Z",
               "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
@@ -94,15 +98,11 @@
               "Title": "FormCalisanYonetimi.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\ynaz2\\Desktop\\B241210094_VTYS\\FormCalisanYonetimi.cs",
               "RelativeDocumentMoniker": "FormCalisanYonetimi.cs",
-              "ToolTip": "C:\\Users\\ynaz2\\Desktop\\B241210094_VTYS\\FormCalisanYonetimi.cs [Tasar\u0131m]*",
-              "RelativeToolTip": "FormCalisanYonetimi.cs [Tasar\u0131m]*",
+              "ToolTip": "C:\\Users\\ynaz2\\Desktop\\B241210094_VTYS\\FormCalisanYonetimi.cs [Tasar\u0131m]",
+              "RelativeToolTip": "FormCalisanYonetimi.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-07T15:14:05.642Z",
               "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
@@ -196,8 +196,8 @@
               "Title": "FormCalisanYonetimi.cs",
               "DocumentMoniker": "C:\\Users\\ynaz2\\Desktop\\B241210094_VTYS\\FormCalisanYonetimi.cs",
               "RelativeDocumentMoniker": "FormCalisanYonetimi.cs",
-              "ToolTip": "C:\\Users\\ynaz2\\Desktop\\B241210094_VTYS\\FormCalisanYonetimi.cs*",
-              "RelativeToolTip": "FormCalisanYonetimi.cs*",
+              "ToolTip": "C:\\Users\\ynaz2\\Desktop\\B241210094_VTYS\\FormCalisanYonetimi.cs",
+              "RelativeToolTip": "FormCalisanYonetimi.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-07T17:08:28.308Z",

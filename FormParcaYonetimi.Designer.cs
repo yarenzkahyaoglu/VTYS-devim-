@@ -30,40 +30,40 @@
         {
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
-            tabPage2 = new TabPage();
-            tabPage3 = new TabPage();
-            txtKategoriAdi = new TextBox();
-            btnKategoriEkle = new Button();
-            btnKategoriGuncelle = new Button();
-            btnKategoriSil = new Button();
-            btnKategoriListele = new Button();
             dgvKategori = new DataGridView();
-            cmbKategori = new ComboBox();
-            txtParcaAdi = new TextBox();
-            numStok = new NumericUpDown();
-            numFiyat = new NumericUpDown();
-            btnParcaEkle = new Button();
-            btnParcaGuncelle = new Button();
-            btnParcaSil = new Button();
-            btnParcaListele = new Button();
+            btnKategoriListele = new Button();
+            btnKategoriSil = new Button();
+            btnKategoriGuncelle = new Button();
+            btnKategoriEkle = new Button();
+            txtKategoriAdi = new TextBox();
+            tabPage2 = new TabPage();
             dgvParca = new DataGridView();
-            cmbArac = new ComboBox();
-            cmbParca = new ComboBox();
-            numAdet = new NumericUpDown();
-            btnAracParcaEkle = new Button();
-            btnAracParcaSil = new Button();
-            btnAracParcaListele = new Button();
+            btnParcaListele = new Button();
+            btnParcaSil = new Button();
+            btnParcaGuncelle = new Button();
+            btnParcaEkle = new Button();
+            numFiyat = new NumericUpDown();
+            numStok = new NumericUpDown();
+            txtParcaAdi = new TextBox();
+            cmbKategori = new ComboBox();
+            tabPage3 = new TabPage();
             dgvAracParca = new DataGridView();
+            btnAracParcaListele = new Button();
+            btnAracParcaSil = new Button();
+            btnAracParcaEkle = new Button();
+            numAdet = new NumericUpDown();
+            cmbParca = new ComboBox();
+            cmbArac = new ComboBox();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
-            tabPage2.SuspendLayout();
-            tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvKategori).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numStok).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numFiyat).BeginInit();
+            tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvParca).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numAdet).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numFiyat).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numStok).BeginInit();
+            tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvAracParca).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numAdet).BeginInit();
             SuspendLayout();
             // 
             // tabControl1
@@ -93,6 +93,58 @@
             tabPage1.Text = "Parça Kategori Bölümü";
             tabPage1.UseVisualStyleBackColor = true;
             // 
+            // dgvKategori
+            // 
+            dgvKategori.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvKategori.Location = new Point(209, 6);
+            dgvKategori.Name = "dgvKategori";
+            dgvKategori.RowHeadersWidth = 62;
+            dgvKategori.Size = new Size(240, 222);
+            dgvKategori.TabIndex = 5;
+            // 
+            // btnKategoriListele
+            // 
+            btnKategoriListele.Location = new Point(6, 174);
+            btnKategoriListele.Name = "btnKategoriListele";
+            btnKategoriListele.Size = new Size(159, 34);
+            btnKategoriListele.TabIndex = 4;
+            btnKategoriListele.Text = "Kategori Listele";
+            btnKategoriListele.UseVisualStyleBackColor = true;
+            // 
+            // btnKategoriSil
+            // 
+            btnKategoriSil.Location = new Point(6, 134);
+            btnKategoriSil.Name = "btnKategoriSil";
+            btnKategoriSil.Size = new Size(112, 34);
+            btnKategoriSil.TabIndex = 3;
+            btnKategoriSil.Text = "Kategori Sil";
+            btnKategoriSil.UseVisualStyleBackColor = true;
+            // 
+            // btnKategoriGuncelle
+            // 
+            btnKategoriGuncelle.Location = new Point(6, 94);
+            btnKategoriGuncelle.Name = "btnKategoriGuncelle";
+            btnKategoriGuncelle.Size = new Size(174, 34);
+            btnKategoriGuncelle.TabIndex = 2;
+            btnKategoriGuncelle.Text = "Kategori Güncelle";
+            btnKategoriGuncelle.UseVisualStyleBackColor = true;
+            // 
+            // btnKategoriEkle
+            // 
+            btnKategoriEkle.Location = new Point(31, 54);
+            btnKategoriEkle.Name = "btnKategoriEkle";
+            btnKategoriEkle.Size = new Size(134, 34);
+            btnKategoriEkle.TabIndex = 1;
+            btnKategoriEkle.Text = "Kategori Ekle";
+            btnKategoriEkle.UseVisualStyleBackColor = true;
+            // 
+            // txtKategoriAdi
+            // 
+            txtKategoriAdi.Location = new Point(6, 6);
+            txtKategoriAdi.Name = "txtKategoriAdi";
+            txtKategoriAdi.Size = new Size(150, 31);
+            txtKategoriAdi.TabIndex = 0;
+            // 
             // tabPage2
             // 
             tabPage2.Controls.Add(dgvParca);
@@ -112,6 +164,80 @@
             tabPage2.Text = "Parça Bölümü";
             tabPage2.UseVisualStyleBackColor = true;
             // 
+            // dgvParca
+            // 
+            dgvParca.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvParca.Location = new Point(225, 185);
+            dgvParca.Name = "dgvParca";
+            dgvParca.RowHeadersWidth = 62;
+            dgvParca.Size = new Size(199, 115);
+            dgvParca.TabIndex = 8;
+            // 
+            // btnParcaListele
+            // 
+            btnParcaListele.Location = new Point(18, 175);
+            btnParcaListele.Name = "btnParcaListele";
+            btnParcaListele.Size = new Size(153, 34);
+            btnParcaListele.TabIndex = 7;
+            btnParcaListele.Text = "Parça Listele";
+            btnParcaListele.UseVisualStyleBackColor = true;
+            // 
+            // btnParcaSil
+            // 
+            btnParcaSil.Location = new Point(298, 121);
+            btnParcaSil.Name = "btnParcaSil";
+            btnParcaSil.Size = new Size(112, 34);
+            btnParcaSil.TabIndex = 6;
+            btnParcaSil.Text = "Parça Sil";
+            btnParcaSil.UseVisualStyleBackColor = true;
+            // 
+            // btnParcaGuncelle
+            // 
+            btnParcaGuncelle.Location = new Point(136, 121);
+            btnParcaGuncelle.Name = "btnParcaGuncelle";
+            btnParcaGuncelle.Size = new Size(147, 34);
+            btnParcaGuncelle.TabIndex = 5;
+            btnParcaGuncelle.Text = "Parça Güncelle";
+            btnParcaGuncelle.UseVisualStyleBackColor = true;
+            // 
+            // btnParcaEkle
+            // 
+            btnParcaEkle.Location = new Point(18, 121);
+            btnParcaEkle.Name = "btnParcaEkle";
+            btnParcaEkle.Size = new Size(112, 34);
+            btnParcaEkle.TabIndex = 4;
+            btnParcaEkle.Text = "Parça Ekle";
+            btnParcaEkle.UseVisualStyleBackColor = true;
+            // 
+            // numFiyat
+            // 
+            numFiyat.Location = new Point(244, 74);
+            numFiyat.Name = "numFiyat";
+            numFiyat.Size = new Size(180, 31);
+            numFiyat.TabIndex = 3;
+            // 
+            // numStok
+            // 
+            numStok.Location = new Point(26, 74);
+            numStok.Name = "numStok";
+            numStok.Size = new Size(180, 31);
+            numStok.TabIndex = 2;
+            // 
+            // txtParcaAdi
+            // 
+            txtParcaAdi.Location = new Point(244, 14);
+            txtParcaAdi.Name = "txtParcaAdi";
+            txtParcaAdi.Size = new Size(150, 31);
+            txtParcaAdi.TabIndex = 1;
+            // 
+            // cmbKategori
+            // 
+            cmbKategori.FormattingEnabled = true;
+            cmbKategori.Location = new Point(24, 14);
+            cmbKategori.Name = "cmbKategori";
+            cmbKategori.Size = new Size(182, 33);
+            cmbKategori.TabIndex = 0;
+            // 
             // tabPage3
             // 
             tabPage3.Controls.Add(dgvAracParca);
@@ -128,172 +254,14 @@
             tabPage3.Text = "Araç-Parça Bölümü";
             tabPage3.UseVisualStyleBackColor = true;
             // 
-            // txtKategoriAdi
+            // dgvAracParca
             // 
-            txtKategoriAdi.Location = new Point(6, 6);
-            txtKategoriAdi.Name = "txtKategoriAdi";
-            txtKategoriAdi.Size = new Size(150, 31);
-            txtKategoriAdi.TabIndex = 0;
-            // 
-            // btnKategoriEkle
-            // 
-            btnKategoriEkle.Location = new Point(6, 54);
-            btnKategoriEkle.Name = "btnKategoriEkle";
-            btnKategoriEkle.Size = new Size(134, 34);
-            btnKategoriEkle.TabIndex = 1;
-            btnKategoriEkle.Text = "Kategori Ekle";
-            btnKategoriEkle.UseVisualStyleBackColor = true;
-            // 
-            // btnKategoriGuncelle
-            // 
-            btnKategoriGuncelle.Location = new Point(6, 94);
-            btnKategoriGuncelle.Name = "btnKategoriGuncelle";
-            btnKategoriGuncelle.Size = new Size(174, 34);
-            btnKategoriGuncelle.TabIndex = 2;
-            btnKategoriGuncelle.Text = "Kategori Güncelle";
-            btnKategoriGuncelle.UseVisualStyleBackColor = true;
-            // 
-            // btnKategoriSil
-            // 
-            btnKategoriSil.Location = new Point(6, 134);
-            btnKategoriSil.Name = "btnKategoriSil";
-            btnKategoriSil.Size = new Size(112, 34);
-            btnKategoriSil.TabIndex = 3;
-            btnKategoriSil.Text = "Kategori Sil";
-            btnKategoriSil.UseVisualStyleBackColor = true;
-            // 
-            // btnKategoriListele
-            // 
-            btnKategoriListele.Location = new Point(6, 174);
-            btnKategoriListele.Name = "btnKategoriListele";
-            btnKategoriListele.Size = new Size(159, 34);
-            btnKategoriListele.TabIndex = 4;
-            btnKategoriListele.Text = "Kategori Listele";
-            btnKategoriListele.UseVisualStyleBackColor = true;
-            // 
-            // dgvKategori
-            // 
-            dgvKategori.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvKategori.Location = new Point(209, 6);
-            dgvKategori.Name = "dgvKategori";
-            dgvKategori.RowHeadersWidth = 62;
-            dgvKategori.Size = new Size(240, 222);
-            dgvKategori.TabIndex = 5;
-            // 
-            // cmbKategori
-            // 
-            cmbKategori.FormattingEnabled = true;
-            cmbKategori.Location = new Point(24, 14);
-            cmbKategori.Name = "cmbKategori";
-            cmbKategori.Size = new Size(182, 33);
-            cmbKategori.TabIndex = 0;
-            // 
-            // txtParcaAdi
-            // 
-            txtParcaAdi.Location = new Point(244, 14);
-            txtParcaAdi.Name = "txtParcaAdi";
-            txtParcaAdi.Size = new Size(150, 31);
-            txtParcaAdi.TabIndex = 1;
-            // 
-            // numStok
-            // 
-            numStok.Location = new Point(26, 74);
-            numStok.Name = "numStok";
-            numStok.Size = new Size(180, 31);
-            numStok.TabIndex = 2;
-            // 
-            // numFiyat
-            // 
-            numFiyat.Location = new Point(244, 74);
-            numFiyat.Name = "numFiyat";
-            numFiyat.Size = new Size(180, 31);
-            numFiyat.TabIndex = 3;
-            // 
-            // btnParcaEkle
-            // 
-            btnParcaEkle.Location = new Point(18, 121);
-            btnParcaEkle.Name = "btnParcaEkle";
-            btnParcaEkle.Size = new Size(112, 34);
-            btnParcaEkle.TabIndex = 4;
-            btnParcaEkle.Text = "Parça Ekle";
-            btnParcaEkle.UseVisualStyleBackColor = true;
-            // 
-            // btnParcaGuncelle
-            // 
-            btnParcaGuncelle.Location = new Point(136, 121);
-            btnParcaGuncelle.Name = "btnParcaGuncelle";
-            btnParcaGuncelle.Size = new Size(147, 34);
-            btnParcaGuncelle.TabIndex = 5;
-            btnParcaGuncelle.Text = "Parça Güncelle";
-            btnParcaGuncelle.UseVisualStyleBackColor = true;
-            // 
-            // btnParcaSil
-            // 
-            btnParcaSil.Location = new Point(298, 121);
-            btnParcaSil.Name = "btnParcaSil";
-            btnParcaSil.Size = new Size(112, 34);
-            btnParcaSil.TabIndex = 6;
-            btnParcaSil.Text = "Parça Sil";
-            btnParcaSil.UseVisualStyleBackColor = true;
-            // 
-            // btnParcaListele
-            // 
-            btnParcaListele.Location = new Point(18, 175);
-            btnParcaListele.Name = "btnParcaListele";
-            btnParcaListele.Size = new Size(153, 34);
-            btnParcaListele.TabIndex = 7;
-            btnParcaListele.Text = "Parça Listele";
-            btnParcaListele.UseVisualStyleBackColor = true;
-            // 
-            // dgvParca
-            // 
-            dgvParca.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvParca.Location = new Point(225, 185);
-            dgvParca.Name = "dgvParca";
-            dgvParca.RowHeadersWidth = 62;
-            dgvParca.Size = new Size(199, 115);
-            dgvParca.TabIndex = 8;
-            // 
-            // cmbArac
-            // 
-            cmbArac.FormattingEnabled = true;
-            cmbArac.Location = new Point(35, 26);
-            cmbArac.Name = "cmbArac";
-            cmbArac.Size = new Size(182, 33);
-            cmbArac.TabIndex = 0;
-            // 
-            // cmbParca
-            // 
-            cmbParca.FormattingEnabled = true;
-            cmbParca.Location = new Point(243, 26);
-            cmbParca.Name = "cmbParca";
-            cmbParca.Size = new Size(182, 33);
-            cmbParca.TabIndex = 1;
-            // 
-            // numAdet
-            // 
-            numAdet.Location = new Point(37, 82);
-            numAdet.Name = "numAdet";
-            numAdet.Size = new Size(180, 31);
-            numAdet.TabIndex = 2;
-            // 
-            // btnAracParcaEkle
-            // 
-            btnAracParcaEkle.Location = new Point(43, 132);
-            btnAracParcaEkle.Name = "btnAracParcaEkle";
-            btnAracParcaEkle.Size = new Size(142, 34);
-            btnAracParcaEkle.TabIndex = 3;
-            btnAracParcaEkle.Text = "Araç Parça Ekle";
-            btnAracParcaEkle.UseVisualStyleBackColor = true;
-            // 
-            // btnAracParcaSil
-            // 
-            btnAracParcaSil.Location = new Point(43, 181);
-            btnAracParcaSil.Name = "btnAracParcaSil";
-            btnAracParcaSil.Size = new Size(138, 34);
-            btnAracParcaSil.TabIndex = 4;
-            btnAracParcaSil.Text = "Araç Parça Sil";
-            btnAracParcaSil.UseVisualStyleBackColor = true;
+            dgvAracParca.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvAracParca.Location = new Point(243, 82);
+            dgvAracParca.Name = "dgvAracParca";
+            dgvAracParca.RowHeadersWidth = 62;
+            dgvAracParca.Size = new Size(238, 87);
+            dgvAracParca.TabIndex = 6;
             // 
             // btnAracParcaListele
             // 
@@ -304,14 +272,46 @@
             btnAracParcaListele.Text = "Araç Parça Listele";
             btnAracParcaListele.UseVisualStyleBackColor = true;
             // 
-            // dgvAracParca
+            // btnAracParcaSil
             // 
-            dgvAracParca.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvAracParca.Location = new Point(243, 82);
-            dgvAracParca.Name = "dgvAracParca";
-            dgvAracParca.RowHeadersWidth = 62;
-            dgvAracParca.Size = new Size(238, 87);
-            dgvAracParca.TabIndex = 6;
+            btnAracParcaSil.Location = new Point(43, 181);
+            btnAracParcaSil.Name = "btnAracParcaSil";
+            btnAracParcaSil.Size = new Size(138, 34);
+            btnAracParcaSil.TabIndex = 4;
+            btnAracParcaSil.Text = "Araç Parça Sil";
+            btnAracParcaSil.UseVisualStyleBackColor = true;
+            // 
+            // btnAracParcaEkle
+            // 
+            btnAracParcaEkle.Location = new Point(43, 132);
+            btnAracParcaEkle.Name = "btnAracParcaEkle";
+            btnAracParcaEkle.Size = new Size(142, 34);
+            btnAracParcaEkle.TabIndex = 3;
+            btnAracParcaEkle.Text = "Araç Parça Ekle";
+            btnAracParcaEkle.UseVisualStyleBackColor = true;
+            // 
+            // numAdet
+            // 
+            numAdet.Location = new Point(37, 82);
+            numAdet.Name = "numAdet";
+            numAdet.Size = new Size(180, 31);
+            numAdet.TabIndex = 2;
+            // 
+            // cmbParca
+            // 
+            cmbParca.FormattingEnabled = true;
+            cmbParca.Location = new Point(243, 26);
+            cmbParca.Name = "cmbParca";
+            cmbParca.Size = new Size(182, 33);
+            cmbParca.TabIndex = 1;
+            // 
+            // cmbArac
+            // 
+            cmbArac.FormattingEnabled = true;
+            cmbArac.Location = new Point(35, 26);
+            cmbArac.Name = "cmbArac";
+            cmbArac.Size = new Size(182, 33);
+            cmbArac.TabIndex = 0;
             // 
             // FormParcaYonetimi
             // 
@@ -324,15 +324,15 @@
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
             tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvKategori).EndInit();
             tabPage2.ResumeLayout(false);
             tabPage2.PerformLayout();
-            tabPage3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dgvKategori).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numStok).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numFiyat).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvParca).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numAdet).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numFiyat).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numStok).EndInit();
+            tabPage3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgvAracParca).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numAdet).EndInit();
             ResumeLayout(false);
         }
 

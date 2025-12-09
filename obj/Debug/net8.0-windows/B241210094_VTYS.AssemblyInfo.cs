@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("B241210094_VTYS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aae01fb82c628179a688a8927de8e3ed54548605")]
 [assembly: System.Reflection.AssemblyProductAttribute("B241210094_VTYS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("B241210094_VTYS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
