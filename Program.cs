@@ -1,5 +1,6 @@
 namespace B241210094_VTYS
 {
+
     internal static class Program
     {
         /// <summary>

@@ -36,13 +36,14 @@
             btnUretimSureci = new Button();
             btnTestYonetimi = new Button();
             btnMusteriTeslim = new Button();
+            label1 = new Label();
             SuspendLayout();
             // 
             // btnAracYonetimi
             // 
-            btnAracYonetimi.Location = new Point(12, 12);
+            btnAracYonetimi.Location = new Point(115, 51);
             btnAracYonetimi.Name = "btnAracYonetimi";
-            btnAracYonetimi.Size = new Size(251, 53);
+            btnAracYonetimi.Size = new Size(274, 80);
             btnAracYonetimi.TabIndex = 0;
             btnAracYonetimi.Text = "Araç Yönetimi";
             btnAracYonetimi.UseVisualStyleBackColor = true;
@@ -50,9 +51,9 @@
             // 
             // btnParcaYonetimi
             // 
-            btnParcaYonetimi.Location = new Point(269, 12);
+            btnParcaYonetimi.Location = new Point(409, 51);
             btnParcaYonetimi.Name = "btnParcaYonetimi";
-            btnParcaYonetimi.Size = new Size(186, 53);
+            btnParcaYonetimi.Size = new Size(274, 80);
             btnParcaYonetimi.TabIndex = 1;
             btnParcaYonetimi.Text = "Parça Yönetimi";
             btnParcaYonetimi.UseVisualStyleBackColor = true;
@@ -60,9 +61,9 @@
             // 
             // btnCalisanYonetimi
             // 
-            btnCalisanYonetimi.Location = new Point(12, 80);
+            btnCalisanYonetimi.Location = new Point(115, 137);
             btnCalisanYonetimi.Name = "btnCalisanYonetimi";
-            btnCalisanYonetimi.Size = new Size(184, 41);
+            btnCalisanYonetimi.Size = new Size(274, 73);
             btnCalisanYonetimi.TabIndex = 2;
             btnCalisanYonetimi.Text = "Çalışan/Departman Yönetimi";
             btnCalisanYonetimi.UseVisualStyleBackColor = true;
@@ -70,17 +71,17 @@
             // 
             // btnRaporlar
             // 
-            btnRaporlar.Location = new Point(149, 254);
+            btnRaporlar.Location = new Point(237, 304);
             btnRaporlar.Name = "btnRaporlar";
-            btnRaporlar.Size = new Size(167, 50);
+            btnRaporlar.Size = new Size(333, 68);
             btnRaporlar.TabIndex = 3;
-            btnRaporlar.Text = "Rapor & İşlemler";
+            btnRaporlar.Text = "Rapor İşlemleri";
             btnRaporlar.UseVisualStyleBackColor = true;
             btnRaporlar.Click += btnRaporlar_Click;
             // 
             // btnCikis
             // 
-            btnCikis.Location = new Point(186, 325);
+            btnCikis.Location = new Point(345, 378);
             btnCikis.Name = "btnCikis";
             btnCikis.Size = new Size(112, 34);
             btnCikis.TabIndex = 4;
@@ -90,9 +91,9 @@
             // 
             // btnUretimSureci
             // 
-            btnUretimSureci.Location = new Point(269, 71);
+            btnUretimSureci.Location = new Point(409, 137);
             btnUretimSureci.Name = "btnUretimSureci";
-            btnUretimSureci.Size = new Size(211, 58);
+            btnUretimSureci.Size = new Size(274, 73);
             btnUretimSureci.TabIndex = 5;
             btnUretimSureci.Text = "Üretim Süreci";
             btnUretimSureci.UseVisualStyleBackColor = true;
@@ -100,9 +101,9 @@
             // 
             // btnTestYonetimi
             // 
-            btnTestYonetimi.Location = new Point(12, 144);
+            btnTestYonetimi.Location = new Point(115, 216);
             btnTestYonetimi.Name = "btnTestYonetimi";
-            btnTestYonetimi.Size = new Size(195, 86);
+            btnTestYonetimi.Size = new Size(274, 82);
             btnTestYonetimi.TabIndex = 6;
             btnTestYonetimi.Text = "Test Yönetimi";
             btnTestYonetimi.UseVisualStyleBackColor = true;
@@ -110,19 +111,29 @@
             // 
             // btnMusteriTeslim
             // 
-            btnMusteriTeslim.Location = new Point(269, 151);
+            btnMusteriTeslim.Location = new Point(409, 216);
             btnMusteriTeslim.Name = "btnMusteriTeslim";
-            btnMusteriTeslim.Size = new Size(194, 72);
+            btnMusteriTeslim.Size = new Size(274, 82);
             btnMusteriTeslim.TabIndex = 7;
             btnMusteriTeslim.Text = "Müşteri Teslim Süreci";
             btnMusteriTeslim.UseVisualStyleBackColor = true;
             btnMusteriTeslim.Click += btnMusteriTeslim_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(218, 23);
+            label1.Name = "label1";
+            label1.Size = new Size(362, 25);
+            label1.TabIndex = 8;
+            label1.Text = "ARAÇ ÜRETİM FABRİKASI YÖNETİM SİSTEMİ";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(828, 416);
+            Controls.Add(label1);
             Controls.Add(btnMusteriTeslim);
             Controls.Add(btnTestYonetimi);
             Controls.Add(btnUretimSureci);
@@ -131,9 +142,13 @@
             Controls.Add(btnCalisanYonetimi);
             Controls.Add(btnParcaYonetimi);
             Controls.Add(btnAracYonetimi);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -146,5 +161,6 @@
         private Button btnUretimSureci;
         private Button btnTestYonetimi;
         private Button btnMusteriTeslim;
+        private Label label1;
     }
 }
